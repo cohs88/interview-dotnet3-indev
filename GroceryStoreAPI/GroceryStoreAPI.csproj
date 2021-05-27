@@ -3,4 +3,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GroceryStoreAPI.Core\GroceryStoreAPI.Core.csproj" />
+    <ProjectReference Include="..\GroceryStoreAPI.Infrastructure\GroceryStoreAPI.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>

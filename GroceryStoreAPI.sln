@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryStoreAPI", "GroceryStoreAPI\GroceryStoreAPI.csproj", "{471ACB33-0A48-406A-8735-F9E2ECBA8817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStoreyAPI.Tests", "GroceryStoreyAPI.Tests\GroceryStoreyAPI.Tests.csproj", "{303AEF70-981C-423E-B970-D042CA4588DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryStoreyAPI.Tests", "GroceryStoreyAPI.Tests\GroceryStoreyAPI.Tests.csproj", "{303AEF70-981C-423E-B970-D042CA4588DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStoreAPI.Core", "GroceryStoreAPI.Core\GroceryStoreAPI.Core.csproj", "{2950598F-68CF-4563-9828-0791759B84A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStoreAPI.Infrastructure", "GroceryStoreAPI.Infrastructure\GroceryStoreAPI.Infrastructure.csproj", "{F75B866F-DB35-4437-BC47-A45E4775B0E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{303AEF70-981C-423E-B970-D042CA4588DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{303AEF70-981C-423E-B970-D042CA4588DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{303AEF70-981C-423E-B970-D042CA4588DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2950598F-68CF-4563-9828-0791759B84A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2950598F-68CF-4563-9828-0791759B84A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2950598F-68CF-4563-9828-0791759B84A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2950598F-68CF-4563-9828-0791759B84A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75B866F-DB35-4437-BC47-A45E4775B0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75B866F-DB35-4437-BC47-A45E4775B0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75B866F-DB35-4437-BC47-A45E4775B0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75B866F-DB35-4437-BC47-A45E4775B0E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

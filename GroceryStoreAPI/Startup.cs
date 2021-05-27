@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using GroceryStoreAPI.Core.Interfaces;
+using GroceryStoreAPI.Helpers;
+using GroceryStoreAPI.Infrastructure.Data;
+using GroceryStoreAPI.Infrastructure.Services;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -18,6 +22,11 @@ namespace GroceryStoreAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(CustomerMapping));
+
+            services.AddTransient<ICustomerRepository, CustomerRepository>();
+            services.AddTransient<ICustomerService, CustomerService>();
+
             services.AddControllers();
         }
 
